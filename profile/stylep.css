@@ -39,17 +39,18 @@ body {
     padding: 40px;
 }
 
-/* Hình ảnh Profile (Cần ảnh hình tròn và viền trắng như CV gốc) */
+/* --- ĐỊNH DẠNG HÌNH ẢNH PROFILE --- */
 .profile-img {
     width: 150px; /* Kích thước ảnh */
     height: 150px;
-    border-radius: 50%; /* Tạo hình tròn */
-    object-fit: cover;
+    border-radius: 50%; /* TẠO HÌNH TRÒN */
+    object-fit: cover; /* Đảm bảo ảnh hiển thị đầy đủ, không bị kéo dãn */
     display: block;
-    margin: 0 auto 20px auto;
-    border: 5px solid white; /* Viền trắng */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin: 0 auto 20px auto; /* Căn giữa */
+    border: 5px solid white; /* VIỀN TRẮNG */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Đổ bóng nhẹ */
 }
+/* ---------------------------------- */
 
 /* Tiêu đề mục lớn */
 h2 {

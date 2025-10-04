@@ -1,0 +1,8 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.13.7, pytest-8.4.2, pluggy-1.6.0
+rootdir: /Users/jun/Downloads/MON_NHAP_MON_CNPM/LAB1/labs/lab08-testing
+collected 5 items
+
+test_withdraw.py .....                                                   [100%]
+
+============================== 5 passed in 0.01s ===============================
